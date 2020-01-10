@@ -1,6 +1,6 @@
 Name: setuptool
 Version: 1.19.9
-Release: 3%{?dist}
+Release: 4%{?dist}
 Summary: A text mode system configuration tool
 License: GPLv2+
 Group: Applications/System
@@ -32,7 +32,7 @@ make install DESTDIR=$RPM_BUILD_ROOT
 #for setuptool <= 1.19.10
 cp %{SOURCE1} .
 gzip setup.1
-install -D setup.1.gz $RPM_BUILD_ROOT%{_mandir}/man1/setup.1.gz
+install -m 0644 -D setup.1.gz $RPM_BUILD_ROOT%{_mandir}/man1/setup.1.gz
 
 %find_lang setup
 
@@ -53,6 +53,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man1/setup.1.gz
 
 %changelog
+* Tue May 21 2013 Michal Hlavinka <mhlavink@redhat.com> - 1.19.9-4
+- man page should not be executable (#883581)
+
 * Wed May 19 2010 Michal Hlavinka <mhlavink@redhat.com> 1.19.9-3
 - install man page
 
@@ -203,8 +206,6 @@ rm -rf $RPM_BUILD_ROOT
 * Wed Jul 24 2002 Nalin Dahyabhai <nalin@redhat.com> 1.9-1
 - nuke the .desktop file
 - add usermode bits
-
-* Wed Jul 24 2002 Nalin Dahyabhai <nalin@redhat.com> 1.9-1
 - intltoolize, use desktop-file-install, autotools full pull
 
 * Fri Jun 21 2002 Tim Powers <timp@redhat.com>
