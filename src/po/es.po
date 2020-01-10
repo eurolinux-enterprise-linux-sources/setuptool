@@ -1,0 +1,89 @@
+# translation of setup.master.es.po to Spanish
+# Copyright (C) 2008 Free Software Foundation, Inc.
+#
+# Tullio Dovera <tdovera@redhat.it>, 2000.
+# Domingo Becker <domingobecker@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: setup.master.es\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-10-20 19:19+0200\n"
+"PO-Revision-Date: 2009-10-12 19:21-0300\n"
+"Last-Translator: Domingo Becker <domingobecker@gmail.com>\n"
+"Language-Team: Fedora Spanish <fedora-trans-es@redhat.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"X-Poedit-Language: Spanish\n"
+
+#: ../setuptool.d.h:1
+msgid "Authentication configuration"
+msgstr "Configuración de la autenticación "
+
+#: ../setuptool.d.h:2
+msgid "Firewall configuration"
+msgstr "Configuración del cortafuego"
+
+#: ../setuptool.d.h:3
+msgid "Keyboard configuration"
+msgstr "Configuración del teclado"
+
+#: ../setuptool.d.h:4
+msgid "Network configuration"
+msgstr "Configuración de la red"
+
+#: ../setuptool.d.h:5
+msgid "System services"
+msgstr "Servicios del sistema"
+
+#: ../setuptool.d.h:6
+msgid "Timezone configuration"
+msgstr "Configuración del huso horario"
+
+#: ../setuptool.d.h:7
+msgid "X configuration"
+msgstr "Configuración de X"
+
+#: ../setup.c:91
+#, c-format
+msgid ""
+"\n"
+"ERROR - You must be root to run setup.\n"
+msgstr ""
+"\n"
+"ERROR - Debe ser root para ejecutar una configuración.\n"
+
+#: ../setup.c:190
+#, c-format
+msgid ""
+"\n"
+"ERROR - No tool descriptions found in %s or %s.\n"
+msgstr ""
+"\n"
+"ERROR - No hay descripciones de herramienta en %s o %s.\n"
+
+#: ../setup.c:231
+msgid ""
+"    <Tab>/<Alt-Tab> between elements  |    Use <Enter> to edit a selection"
+msgstr ""
+"    <Tab>/<Alt-Tab> entre elementos  |   Usar <Intro> para editar una "
+"selección"
+
+#: ../setup.c:234
+#, c-format
+msgid "Text Mode Setup Utility %-28s (c) 1999-2006 Red Hat, Inc."
+msgstr ""
+"Utilidad de configuración en modo texto %-28s (c) 1999-2006 Red Hat, Inc."
+
+#: ../setup.c:239
+msgid "Run Tool"
+msgstr "Ejecutar Herramienta"
+
+#: ../setup.c:239
+msgid "Quit"
+msgstr "Salir"
+
+#: ../setup.c:244
+msgid "Choose a Tool"
+msgstr "Elija una Herramienta"
