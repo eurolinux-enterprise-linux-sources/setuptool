@@ -1,0 +1,97 @@
+# translation of setuptool.mn.po to Mongolian
+# translation of setuptool.po to
+# Copyright (C)  OpenMN team ,2003
+# Sanlig Badral <badral@openmn.org>, 2003
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: setuptool.mn\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-10-20 19:19+0200\n"
+"PO-Revision-Date: 2003-08-02 02:59+0200\n"
+"Last-Translator: Sanlig Badral <badral@openmn.org>\n"
+"Language-Team: Mongolian <openmn-linux@lists.sf.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0.1\n"
+
+# ../setup.c:34
+#: ../setuptool.d.h:1
+msgid "Authentication configuration"
+msgstr "Баталгаажуулалтын тохируулга"
+
+# ../setup.c:40
+#: ../setuptool.d.h:2
+msgid "Firewall configuration"
+msgstr " Файрволын тохируулга"
+
+# ../setup.c:35
+#: ../setuptool.d.h:3
+msgid "Keyboard configuration"
+msgstr " Гарын тохируулга"
+
+# ../setup.c:35
+#: ../setuptool.d.h:4
+msgid "Network configuration"
+msgstr " Сүлжээний тохируулга"
+
+# ../setup.c:37
+#: ../setuptool.d.h:5
+msgid "System services"
+msgstr " Системийн үйлчилгээ"
+
+# ../setup.c:39
+#: ../setuptool.d.h:6
+msgid "Timezone configuration"
+msgstr " Цагийн бүсийн тохируулга"
+
+# ../setup.c:40
+#: ../setuptool.d.h:7
+msgid "X configuration"
+msgstr " X-тохируулга"
+
+#: ../setup.c:91
+#, c-format
+msgid ""
+"\n"
+"ERROR - You must be root to run setup.\n"
+msgstr ""
+"\n"
+"АЛДАА - Та тохируулга хийхийн тулд эзэнээр нэвтэрсэн байх ёстой.\n"
+
+#: ../setup.c:190
+#, c-format
+msgid ""
+"\n"
+"ERROR - No tool descriptions found in %s or %s.\n"
+msgstr ""
+
+# ../setup.c:57
+#: ../setup.c:231
+msgid ""
+"    <Tab>/<Alt-Tab> between elements  |    Use <Enter> to edit a selection"
+msgstr "<Tab>/<Alt+Tab> Элементүүд хооронд сэлгэх | <Enter> сонголт засах"
+
+# ../setup.c:60
+#: ../setup.c:234
+#, c-format
+msgid "Text Mode Setup Utility %-28s (c) 1999-2006 Red Hat, Inc."
+msgstr ""
+"Текст горимын тохируулгын үйлчилгээний програм %-28s (c) 1999-2006 Red Hat, "
+"Inc."
+
+# ../setup.c:65
+#: ../setup.c:239
+msgid "Run Tool"
+msgstr "Програм ажиллуулах"
+
+# ../setup.c:65
+#: ../setup.c:239
+msgid "Quit"
+msgstr "Гарах"
+
+# ../setup.c:70
+#: ../setup.c:244
+msgid "Choose a Tool"
+msgstr "Та нэгэн үйлч. програм сонгоно уу"

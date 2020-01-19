@@ -1,0 +1,84 @@
+# Ukrainian translation to setuptool.
+# Copyright (C) Free Software Foundation
+# This file is distributed under the same license as the setuptool package.
+# Maxim Dziumanenko <dziumanenko@gmail.com>, 2003-2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: setuptool\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-10-20 19:19+0200\n"
+"PO-Revision-Date: 2009-09-22 16:18+0200\n"
+"Last-Translator: Maxim Dziumanenko <dziumanenko@gmail.com>\n"
+"Language-Team: Ukrainian <uk@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../setuptool.d.h:1
+msgid "Authentication configuration"
+msgstr " Налаштовування аутентифікації "
+
+#: ../setuptool.d.h:2
+msgid "Firewall configuration"
+msgstr " Налаштовування брандмауера "
+
+#: ../setuptool.d.h:3
+msgid "Keyboard configuration"
+msgstr " Налаштовування клавіатури "
+
+#: ../setuptool.d.h:4
+msgid "Network configuration"
+msgstr " Налаштовування мережі "
+
+#: ../setuptool.d.h:5
+msgid "System services"
+msgstr " Системні служби "
+
+#: ../setuptool.d.h:6
+msgid "Timezone configuration"
+msgstr " Налаштовування часового поясу "
+
+#: ../setuptool.d.h:7
+msgid "X configuration"
+msgstr " Налаштовування X"
+
+#: ../setup.c:91
+#, c-format
+msgid ""
+"\n"
+"ERROR - You must be root to run setup.\n"
+msgstr ""
+"\n"
+"ПОМИЛКА - Для запуску програми setup необхідно мати права root.\n"
+
+#: ../setup.c:190
+#, c-format
+msgid ""
+"\n"
+"ERROR - No tool descriptions found in %s or %s.\n"
+msgstr ""
+"\n"
+"ПОМИЛКА - не знайдено опис програми у %s або %s.\n"
+
+#: ../setup.c:231
+msgid ""
+"    <Tab>/<Alt-Tab> between elements  |    Use <Enter> to edit a selection"
+msgstr "    <Tab>/<Alt-Tab> між елементами    |    <Enter>  змінити вибір"
+
+#: ../setup.c:234
+#, c-format
+msgid "Text Mode Setup Utility %-28s (c) 1999-2006 Red Hat, Inc."
+msgstr "Текстова утиліта налаштовування %-28s (c) 1999-2006 Red Hat, Inc."
+
+#: ../setup.c:239
+msgid "Run Tool"
+msgstr "Запустити утиліту"
+
+#: ../setup.c:239
+msgid "Quit"
+msgstr "Вийти"
+
+#: ../setup.c:244
+msgid "Choose a Tool"
+msgstr "Виберіть утиліту"

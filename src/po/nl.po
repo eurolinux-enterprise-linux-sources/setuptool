@@ -1,0 +1,90 @@
+# Dutch translation of setuptool.
+# Copyright (C) 2003, 2004, 2006, 2008 The Free Software Foundation, Inc.
+# This file is distributed under the same license as the setuptool package.
+# Tino Meinen <a.t.meinen@chello.nl>, 2003.
+# Peter van Egdom <p.van.egdom@gmail.com>, 2004, 2006, 2008.
+# Geert Warrink <geert.warrink@onsnet.nu>, 2009, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: setuptool\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-10-20 19:19+0200\n"
+"PO-Revision-Date: 2010-07-04 17:15+0200\n"
+"Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
+"Language-Team: Fedora\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.6.1\n"
+
+#: ../setuptool.d.h:1
+msgid "Authentication configuration"
+msgstr "Authenticatie configuratie"
+
+#: ../setuptool.d.h:2
+msgid "Firewall configuration"
+msgstr "Firewall configuratie"
+
+#: ../setuptool.d.h:3
+msgid "Keyboard configuration"
+msgstr "Toetsenbord configuratie"
+
+#: ../setuptool.d.h:4
+msgid "Network configuration"
+msgstr "Netwerk configuratie"
+
+#: ../setuptool.d.h:5
+msgid "System services"
+msgstr "Systeem services"
+
+#: ../setuptool.d.h:6
+msgid "Timezone configuration"
+msgstr "Tijdzone configuratie"
+
+#: ../setuptool.d.h:7
+msgid "X configuration"
+msgstr "X configuratie"
+
+#: ../setup.c:91
+#, c-format
+msgid ""
+"\n"
+"ERROR - You must be root to run setup.\n"
+msgstr ""
+"\n"
+"FOUT - Je moet root zijn om setup te kunnen uitvoeren.\n"
+
+#: ../setup.c:190
+#, c-format
+msgid ""
+"\n"
+"ERROR - No tool descriptions found in %s or %s.\n"
+msgstr ""
+"\n"
+"FOUT - Er zijn geen gereedschap beschrijvingen gevonden in %s of %s.\n"
+
+#: ../setup.c:231
+msgid ""
+"    <Tab>/<Alt-Tab> between elements  |    Use <Enter> to edit a selection"
+msgstr ""
+"   <Tab>/<Alt-Tab> tussen elementen  |  <Enter> om een selectie te bewerken"
+
+#: ../setup.c:234
+#, c-format
+msgid "Text Mode Setup Utility %-28s (c) 1999-2006 Red Hat, Inc."
+msgstr ""
+"Tekst-gebaseerd configuratie hulpmiddel %-14s (c) 1999-2006 Red Hat, Inc."
+
+#: ../setup.c:239
+msgid "Run Tool"
+msgstr "Programma uitvoeren"
+
+#: ../setup.c:239
+msgid "Quit"
+msgstr "Afsluiten"
+
+#: ../setup.c:244
+msgid "Choose a Tool"
+msgstr "Kies een gereedschap"

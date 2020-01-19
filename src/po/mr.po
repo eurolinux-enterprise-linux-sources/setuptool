@@ -1,0 +1,90 @@
+# translation of setup.master.mr.po to marathi
+# Marathi translations for setuptool package.
+# Copyright (C) 2004 Free Software Foundation
+# This file is distributed under the same license as the setuptool package.
+#
+# Automatically generated, 2004.
+# Pallavi Nikam <nikam.pallavi@gmail.com>, 2005.
+# Rahul Bhalerao <b.rahul.pm@gmail.com>, 2006.
+# Sandeep Shedmake <sandeep.shedmake@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: setup.master.mr\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-10-20 19:19+0200\n"
+"PO-Revision-Date: 2008-03-12 16:54+0530\n"
+"Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
+"Language-Team: marathi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: ../setuptool.d.h:1
+msgid "Authentication configuration"
+msgstr "प्रमाणीकरण कॉनफिग्युरेशन "
+
+#: ../setuptool.d.h:2
+msgid "Firewall configuration"
+msgstr "फायरवॉल कॉनफिग्युरेशन "
+
+#: ../setuptool.d.h:3
+msgid "Keyboard configuration"
+msgstr "किबोर्ड कॉनफिग्युरेशन "
+
+#: ../setuptool.d.h:4
+msgid "Network configuration"
+msgstr "नेटवर्क कॉनफिग्युरेशन "
+
+#: ../setuptool.d.h:5
+msgid "System services"
+msgstr "प्रणाली सेवा"
+
+#: ../setuptool.d.h:6
+msgid "Timezone configuration"
+msgstr "प्रादेशिक वेळेचे कॉनफिग्युरेशन  "
+
+#: ../setuptool.d.h:7
+msgid "X configuration"
+msgstr "X कॉनफिग्युरेशन "
+
+#: ../setup.c:91
+#, c-format
+msgid ""
+"\n"
+"ERROR - You must be root to run setup.\n"
+msgstr ""
+"\n"
+"त्रुटी - सेटअप सुरु करण्यासाठी तुम्ही रुटमध्ये असावयासच हवे.\n"
+
+#: ../setup.c:190
+#, c-format
+msgid ""
+"\n"
+"ERROR - No tool descriptions found in %s or %s.\n"
+msgstr ""
+"\n"
+"त्रुटी - %s किंवा %s मध्ये उपकरण वर्णन सापडले नाही.\n"
+
+#: ../setup.c:231
+msgid ""
+"    <Tab>/<Alt-Tab> between elements  |    Use <Enter> to edit a selection"
+msgstr "  <Tab>/<Alt-Tab> घटकांमध्ये  | निवड संपादित करण्यासाठी <Enter> वापरा"
+
+#: ../setup.c:234
+#, c-format
+msgid "Text Mode Setup Utility %-28s (c) 1999-2006 Red Hat, Inc."
+msgstr "पाठ्य स्थिती सेटअप उपयुक्तता %-28s (c) 1999-2006 Red Hat, Inc."
+
+#: ../setup.c:239
+msgid "Run Tool"
+msgstr "आरंभ करण्याचे साधन"
+
+#: ../setup.c:239
+msgid "Quit"
+msgstr "थांबवणे"
+
+#: ../setup.c:244
+msgid "Choose a Tool"
+msgstr "साधन निवडा"

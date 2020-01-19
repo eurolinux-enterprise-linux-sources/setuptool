@@ -1,0 +1,93 @@
+# translation of setuptool.master.po to Bengali INDIA
+# Bangla Translation of setup.po
+# Copyright (C) 2004 Red Hat Inc.
+# This file is distributed under the same license as the setuptool package.
+#
+# Runa Bhattacharjee <runab@redhat.com>, 2004, 2005, 2006, 2009.
+# Runa Bhattacharjee <runab@fedoraproject.org>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: setuptool.master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-10-20 19:19+0200\n"
+"PO-Revision-Date: 2009-10-14 12:57+0530\n"
+"Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
+"Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"\n"
+"\n"
+"\n"
+
+#: ../setuptool.d.h:1
+msgid "Authentication configuration"
+msgstr "অনুমোদন ব্যবস্থা কনফিগারেশন"
+
+#: ../setuptool.d.h:2
+msgid "Firewall configuration"
+msgstr "ফায়ারওয়াল কনফিগারেশন"
+
+#: ../setuptool.d.h:3
+msgid "Keyboard configuration"
+msgstr "কি-বোর্ড কনফিগারেশন"
+
+#: ../setuptool.d.h:4
+msgid "Network configuration"
+msgstr "নেটওয়ার্ক কনফিগারেশন"
+
+#: ../setuptool.d.h:5
+msgid "System services"
+msgstr "সিস্টেম পরিসেবা"
+
+#: ../setuptool.d.h:6
+msgid "Timezone configuration"
+msgstr "সময়ের-অঞ্চল কনফিগারেশন"
+
+#: ../setuptool.d.h:7
+msgid "X configuration"
+msgstr "X-র কনফিগারেশন"
+
+#: ../setup.c:91
+#, c-format
+msgid ""
+"\n"
+"ERROR - You must be root to run setup.\n"
+msgstr ""
+"\n"
+"সমস্যা - setup ব্যবহার করার জন্য root পরিচয় প্রয়োগ করা আবশ্যক।\n"
+
+#: ../setup.c:190
+#, c-format
+msgid ""
+"\n"
+"ERROR - No tool descriptions found in %s or %s.\n"
+msgstr ""
+"\n"
+"ERROR - %s অথবা %s-র মধ্যে কোনো সামগ্রীর বিবরণ পাওয়া যায়নি।\n"
+
+#: ../setup.c:231
+msgid ""
+"    <Tab>/<Alt-Tab> between elements  |    Use <Enter> to edit a selection"
+msgstr ""
+"    <Tab>/<Alt-Tab> অদল বদল  |    নির্বাচিত বস্তু সম্পাদন করতে <Enter> ব্যবহার করুন"
+
+#: ../setup.c:234
+#, c-format
+msgid "Text Mode Setup Utility %-28s (c) 1999-2006 Red Hat, Inc."
+msgstr "Text Mode Setup Utility %-28s (c) 1999-2006 Red Hat, Inc."
+
+# NOT SURE
+#: ../setup.c:239
+msgid "Run Tool"
+msgstr "টুল আরম্ভ করুন"
+
+#: ../setup.c:239
+msgid "Quit"
+msgstr "প্রস্থান"
+
+#: ../setup.c:244
+msgid "Choose a Tool"
+msgstr "টুল নির্বাচন করুন"

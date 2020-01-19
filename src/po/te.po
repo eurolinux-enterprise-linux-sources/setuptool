@@ -1,0 +1,93 @@
+# translation of setup.master.te.po to Telugu
+# translation of te.po to
+# translation of te.po to
+# translation of te.po to
+# translation of te.po to
+# translation of te.po to
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER, 2006.
+#
+# Krishna Babu K <kkrothap@redhat.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: setup.master.te\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-10-20 19:19+0200\n"
+"PO-Revision-Date: 2008-03-26 20:12+0530\n"
+"Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
+"Language-Team: Telugu <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
+
+#: ../setuptool.d.h:1
+msgid "Authentication configuration"
+msgstr "ప్రామాణిక ఆకృతీకరణ"
+
+#: ../setuptool.d.h:2
+msgid "Firewall configuration"
+msgstr "Firewall ఆకృతీకరణ"
+
+#: ../setuptool.d.h:3
+msgid "Keyboard configuration"
+msgstr "Keyboard ఆకృతీకరణ"
+
+#: ../setuptool.d.h:4
+msgid "Network configuration"
+msgstr "Network ఆకృతీకరణ"
+
+#: ../setuptool.d.h:5
+msgid "System services"
+msgstr "కంప్యూటరు సేవలు"
+
+#: ../setuptool.d.h:6
+msgid "Timezone configuration"
+msgstr "సమయ క్షేత్ర ఆకృతీకరణ"
+
+#: ../setuptool.d.h:7
+msgid "X configuration"
+msgstr "X ఆకృతీకరణ"
+
+#: ../setup.c:91
+#, c-format
+msgid ""
+"\n"
+"ERROR - You must be root to run setup.\n"
+msgstr ""
+"\n"
+"దోషం - అమర్పును ఉపయోగించటానికి మీరు తప్పక root వాడాలి.\n"
+
+#: ../setup.c:190
+#, c-format
+msgid ""
+"\n"
+"ERROR - No tool descriptions found in %s or %s.\n"
+msgstr ""
+"\n"
+"దోషము - %s లేదా %s నందు ఏ సాధన వివరణలు కనబడలేదు.\n"
+
+#: ../setup.c:231
+msgid ""
+"    <Tab>/<Alt-Tab> between elements  |    Use <Enter> to edit a selection"
+msgstr ""
+"    <Tab>/<Alt-Tab> between elements  |    Use <Enter> to edit a selection"
+
+#: ../setup.c:234
+#, c-format
+msgid "Text Mode Setup Utility %-28s (c) 1999-2006 Red Hat, Inc."
+msgstr "పాఠ రీతి అమర్పు వినియోగం %-28s (c) 1999-2006 Red Hat, Inc."
+
+#: ../setup.c:239
+msgid "Run Tool"
+msgstr "సాధనం ఉపయోగించు"
+
+#: ../setup.c:239
+msgid "Quit"
+msgstr "బయటకు"
+
+#: ../setup.c:244
+msgid "Choose a Tool"
+msgstr "సాధనాన్ని ఎన్నుకో"
