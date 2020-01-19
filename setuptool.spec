@@ -1,6 +1,6 @@
 Name: setuptool
 Version: 1.19.11
-Release: 6%{?dist}
+Release: 8%{?dist}
 Summary: A text mode system configuration tool
 License: GPLv2+
 Group: Applications/System
@@ -45,6 +45,12 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man1/setup.1.gz
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.19.11-8
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.19.11-7
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.19.11-6
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
